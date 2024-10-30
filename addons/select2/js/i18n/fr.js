@@ -1,0 +1,4 @@
+/*
+ Select2 4.0.6-rc.1 | https://github.com/select2/select2/blob/master/LICENSE.md */
+(function(){if(jQuery&&jQuery.fn&&jQuery.fn.select2&&jQuery.fn.select2.amd)var e=jQuery.fn.select2.amd;return e.define("select2/i18n/fr",[],function(){return{errorLoading:function(){return"Les r\u00e9sultats ne peuvent pas \u00eatre charg\u00e9s."},inputTooLong:function(e){var t=e.input.length-e.maximum;return"Supprimez "+t+" caract\u00e8re"+(t>1?"s":"")},inputTooShort:function(e){var t=e.minimum-e.input.length;return"Saisissez au moins "+t+" caract\u00e8re"+(t>1?"s":"")},loadingMore:function(){return"Chargement de r\u00e9sultats suppl\u00e9mentaires\u2026"},
+maximumSelected:function(e){return"Vous pouvez seulement s\u00e9lectionner "+e.maximum+" \u00e9l\u00e9ment"+(e.maximum>1?"s":"")},noResults:function(){return"Aucun r\u00e9sultat trouv\u00e9"},searching:function(){return"Recherche en cours\u2026"}}}),{define:e.define,require:e.require}})();

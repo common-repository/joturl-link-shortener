@@ -1,0 +1,4 @@
+/*
+ Select2 4.0.6-rc.1 | https://github.com/select2/select2/blob/master/LICENSE.md */
+(function(){if(jQuery&&jQuery.fn&&jQuery.fn.select2&&jQuery.fn.select2.amd)var e=jQuery.fn.select2.amd;return e.define("select2/i18n/sl",[],function(){return{errorLoading:function(){return"Zadetkov iskanja ni bilo mogo\u010de nalo\u017eiti."},inputTooLong:function(e){var t=e.input.length-e.maximum,n="Prosim zbri\u0161ite "+t+" znak";return t==2?n+="a":t!=1&&(n+="e"),n},inputTooShort:function(e){var t=e.minimum-e.input.length,n="Prosim vpi\u0161ite \u0161e "+t+" znak";return t==2?n+="a":t!=1&&(n+=
+"e"),n},loadingMore:function(){return"Nalagam ve\u010d zadetkov\u2026"},maximumSelected:function(e){var t="Ozna\u010dite lahko najve\u010d "+e.maximum+" predmet";return e.maximum==2?t+="a":e.maximum!=1&&(t+="e"),t},noResults:function(){return"Ni zadetkov."},searching:function(){return"I\u0161\u010dem\u2026"}}}),{define:e.define,require:e.require}})();

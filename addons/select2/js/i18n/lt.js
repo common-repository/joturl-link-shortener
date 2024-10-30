@@ -1,0 +1,4 @@
+/*
+ Select2 4.0.6-rc.1 | https://github.com/select2/select2/blob/master/LICENSE.md */
+(function(){if(jQuery&&jQuery.fn&&jQuery.fn.select2&&jQuery.fn.select2.amd)var e=jQuery.fn.select2.amd;return e.define("select2/i18n/lt",[],function(){function e(e,t,n,r){return e%10===1&&(e%100<11||e%100>19)?t:e%10>=2&&e%10<=9&&(e%100<11||e%100>19)?n:r}return{inputTooLong:function(t){var n=t.input.length-t.maximum,r="Pa\u0161alinkite "+n+" simbol";return r+=e(n,"\u012f","ius","i\u0173"),r},inputTooShort:function(t){var n=t.minimum-t.input.length,r="\u012era\u0161ykite dar "+n+" simbol";return r+=
+e(n,"\u012f","ius","i\u0173"),r},loadingMore:function(){return"Kraunama daugiau rezultat\u0173\u2026"},maximumSelected:function(t){var n="J\u016bs galite pasirinkti tik "+t.maximum+" element";return n+=e(t.maximum,"\u0105","us","\u0173"),n},noResults:function(){return"Atitikmen\u0173 nerasta"},searching:function(){return"Ie\u0161koma\u2026"}}}),{define:e.define,require:e.require}})();
